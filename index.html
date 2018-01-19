@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Pokemon Cheatsheet</title>
+	<meta charset="utf-8" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/media.css" rel="stylesheet" />
+    <link href="bootstrap-3.3.7-dist/css/bootstrap.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/jquery.color.js"></script>
+    <script src="js/custom.js"></script>
+</head>
+<body>
+    <div id="load_screen">
+        <h5 id="loading_text">Loading resources | Please wait</h5>
+    </div>
+    <div id="main" class="container">
+        <h1>Pokemon Cheatsheet</h1>
+        <div id="pagination">
+
+        </div>
+        <div class="row">
+            <div id="table" class="col-lg-8">
+
+            </div>
+            <div id="preview" class="col-lg-4">
+                <h2 id="pokeName">Overview</h2>
+                <img src="img/Preview.png" alt="image" id="pokeImg" />
+                <div id="type"></div>
+                <div id="stats">
+                    <div id="HPWrap">
+                        <div id="HP_capt" class="captions inlineDiv">HP</div>
+                        <div id="HP" class="stats inlineDiv">---</div>
+                    </div>
+                    <div id="atkWrap">
+                        <div id="atk_capt" class="captions inlineDiv">Atk</div>
+                        <div id="atk" class="stats inlineDiv">---</div>
+                    </div>
+                    <div id="defWrap">
+                        <div id="def_capt" class="captions inlineDiv">Def</div>
+                        <div id="def" class="stats inlineDiv">---</div>
+                    </div>
+                    <div id="sp_atkWrap">
+                        <div id="sp_atk_capt" class="captions inlineDiv">Sp. Atk</div>
+                        <div id="sp_atk" class="stats inlineDiv">---</div>
+                    </div>
+                    <div id="sp_defWrap">
+                        <div id="sp_def_capt" class="captions inlineDiv">Sp. Def</div>
+                        <div id="sp_def" class="stats inlineDiv">---</div>
+                    </div>
+                    <div id="speedWrap">
+                        <div id="speed_capt" class="captions inlineDiv">Speed</div>
+                        <div id="speed" class="stats inlineDiv">---</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--
+        <div id="footer">*Values in cells represent possible ranges of given skills at lvl 100</div>
+            -->
+    </div>
+
+</body>
+</html>

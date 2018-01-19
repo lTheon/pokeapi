@@ -1,0 +1,272 @@
+﻿html, body {
+    background:black !important;
+}
+*{
+    cursor:default;
+}
+#main{
+    background:rgb(70, 70, 70);
+    border:5px ridge;
+    margin-top:50px;
+    margin-bottom:50px;
+    padding-bottom:30px;
+    position:relative;
+    z-index:1;
+}
+#load_screen{
+    position:fixed;
+    width:100%;
+    background:black;
+    height:3000px;
+    opacity:1;
+    z-index:2;
+}
+h5{
+    display:block;
+    width:300px;
+    margin:100px auto !important;
+    color:white !important;
+    font-weight:bold;
+    text-align:center;
+    font-size:20px !important;
+}
+h1{
+    color:white !important;
+    text-align:center;
+    width:100%;
+    display:block;
+    margin-bottom:50px !important;
+}
+.pokeImg{
+    height:100px;  
+}
+.pokeDiv{
+    width:140px;
+    text-align:center;
+}
+.inlineDiv{
+    display:inline-block;
+    height:100%;
+}
+.wrappingDiv{
+    margin-bottom:25px;
+    border-bottom:2px solid white;
+    padding-bottom:25px;
+    color:white;
+    text-align:center;
+}
+
+
+
+/*------------Types----------*/
+
+.types{
+    padding:1px 10px;
+    border-radius:5px;
+    width:65px;
+}
+.stone{
+    height:25px;
+}
+.Fire{
+    background:#F08030;
+}
+.Flying{
+    background:#A890F0;
+}
+.Water{
+    background:#6890F0;
+}
+.Grass {
+    background:#78C850;
+}
+.Poison{
+    background:#A040A0;
+}
+.Electric{
+    background:#F8D030;
+}
+.Psychic{
+    background:#F85888;
+}
+.Ghost{
+    background:#705898;
+}
+.Ground{
+    background:#E0C068;
+}
+.Steel{
+    background:#B8B8D0;
+}
+.Dragon{
+    background:#7038F8;
+}
+.Rock{
+    background:#B8A038;
+}
+.Dark{
+    background:#141211;
+}
+.Normal{
+    background:#A8A878;
+}
+.Bug{
+    background:#A8B820;
+}
+.Fairy{
+    background:#EE99AC;
+}
+/*----------------------*/
+.HPcapt{
+    border-right:1% solid black;
+    border-radius:5px;
+    width:20%;
+    padding-right:2px;
+    background:#1309e9;
+    position:relative;
+    z-index:2;
+    left:3px;
+}
+.HPwrap{
+    border:white 1px ridge;
+    border-radius:5px;
+    background:#b7d4cd;
+    position:relative;
+    margin-bottom:4px;
+}
+.HPnums{
+    width:79%;
+    margin:2px 0px;
+    background:#ff0000;
+    border-radius:5px;
+    border-bottom-left-radius:initial;
+    border-top-left-radius:initial;
+    position:relative;
+    left:-3px;
+    z-index:1;
+}
+.evoWrap {
+    position:relative;
+    top:-25px;
+    text-align:center;
+    margin:0px 20px;
+    width:100px;
+}
+
+/*---PREVIEW---*/
+#preview{
+    color:white;
+    text-align:center;
+}
+#pokeImg{
+    height:300px;
+}
+#stats{
+    border:2px ridge white;
+    border-radius:5px;
+    background:#b19b9b;
+}
+#stats > div{
+    margin:5px 5px;
+    border-radius:5px;
+}
+.captions{
+    width:20%;
+}
+.stats{
+    width:78%;
+}
+#HP_capt{
+    background:#ff0000;
+}
+#HPWrap{
+    background:#eb2d2d;
+}
+#atk_capt{
+    background:#ff6500
+}
+#atkWrap{
+    background:#ff8637;
+}
+#def_capt{
+    background:#2920e4;
+}
+#defWrap{
+    background:#3f37e8;
+}
+#sp_atk_capt{
+    background:#24bf06;
+}
+#sp_atkWrap{
+    background:#4bd331;
+}
+#sp_def_capt{
+    background:#008b9a;
+}
+#sp_defWrap{
+    background:#20a3b1;
+}
+#speed_capt{
+    background:#9f1e69;
+}
+#speedWrap{
+    background:#ae377c;
+}
+#type > div{
+    display:inline-block;
+    width:30%;
+    border-radius:5px;
+    margin:10px 0px;
+}
+.vert_indicator{
+    display:none;
+}
+.pageButtons {
+    width:40px;
+    height:40px;
+    color:white;
+    border-radius:5px;
+    background:#b6aeae;
+    display:inline-block;
+    text-align:center;
+    font-size:23px;
+    margin:0px 10px 0px 0px;
+    padding-top:5px;
+    /*-------------------*/
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+#footer{
+    width:100%;
+    color:white;
+    font-size:10px;
+    margin-top:20px;
+}
+#pokeName{
+    margin-bottom:20px;
+}
+#pagination{
+    background:#1a1616;
+    border-radius:5px;
+    border:2px ridge white;
+    margin-bottom:30px;
+    padding:10px;
+}
+
+/*---------ROTATION----------*/
+.media_change:hover .pokeImg{
+    -moz-animation: spinHorizontal .8s infinite linear;
+    -o-animation: spinHorizontal .8s infinite linear;    
+    -webkit-animation: spinHorizontal .8s infinite linear;
+    animation: spinHorizontal .8s infinite linear;
+}
+
+@keyframes spinHorizontal {
+    0% { transform: rotateY(0deg); }
+    100% { transform: rotateY(360deg); }
+}
+/*--------------------------*/

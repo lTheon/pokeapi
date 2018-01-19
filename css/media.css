@@ -1,0 +1,15 @@
+﻿@media (max-width:767px){
+    .evoWrap, .media_change{
+        display:block;
+        margin:20px auto;
+    }
+    .vert_indicator{
+        display:block;
+    }
+    .horiz_indicator{
+        display:none;
+    }
+    .evoWrap{
+        top:0;
+    }
+}
